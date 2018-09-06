@@ -23,5 +23,3 @@ for (var i = 0; i < times; i++) {
 for (var key in res) {
     res[key] = res[key] / times * 100 + '%'
 }
-
-console.log(res)
